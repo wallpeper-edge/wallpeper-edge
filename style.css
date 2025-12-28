@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background: #222;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    gap: 30px;
+}
+.navbar a:hover{
+    background-color: rgb(78, 78, 78);
+}
+.navbar li{
+    float: left;
+    flex-wrap: wrap;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h3{
+    justify-self:center;
+    padding: 10px;
+    font-size: 50px;
+    background: linear-gradient(450deg,gray, white);
+    border-radius: 15px;
+    background-clip: text;
+    color: transparent;
+}
+.parent{
+    background: rgba(104, 104, 104, 0.267);
+    width: 100%;
+    height: 400px;
+}
+.parent img{
+    margin: 20px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid;
+    flex-direction: column;
+    align-items: center;
+}
+.image3{
+    margin: 20px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid;
+    height: 125px;
+    justify-content: center;
+    justify-items: center;
+}
+@media (max-width: 500px) {
+    .parent{
+        background: rgba(104, 104, 104, 0.267);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+span{
+    background: linear-gradient(450deg,gray, white);;
+    font-size: 20px;
+    background-clip: text;
+    color: transparent;
+    animation-name: rext;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.wall1{
+    background: linear-gradient(450deg,gray, white);;
+    font-size: 20px;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    transition: ease;
+}
+@keyframes rext {
+    0% {color: gray;}
+    50% {color: white;
+    scale: 1.2;}
+    100% {color: gray;}
+}  

@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background: #222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    gap: 30px;
+}
+.navbar a:hover{
+    background-color: rgb(78, 78, 78);
+}
+.navbar li{
+    float: left;
+    flex-wrap: wrap;
+}
+h1{
+    justify-self:center;
+    padding: 10px;
+    font-size: 30px;
+    background: linear-gradient(450deg,gray, white);
+    border-radius: 15px;
+    background-clip: text;
+    color: transparent;
+    animation-name: more;
+    animation: more 3s infinite ease;
+}
